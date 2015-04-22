@@ -4,30 +4,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Vacant Frequency</title>
+  <title>Law of Things, PLLC</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
-
-  <%= yield :head %>
 </head>
-
 <body>
-  <%= yield :navbar %>
-
-  <% if !notice.nil? %>
-    <div class="alert alert-info"><%= notice %><button type="button" class="close" data-dismiss="alert" aria-lavel="Close"><span aria-hidden="true">&times;</span></button></div>
-  <% end %>
-
-  <% if !alert.nil? %>
-    <div class="alert alert-danger"><%= alert %><button type="button" class="close" data-dismiss="alert" aria-lavel="Close"><span aria-hidden="true">&times;</span></button></div>
-  <% end %>
- 
-  <%= yield :body %></div>
-  <footer class="footer">
-    <div class="container">
-      <p class="text-muted">Vacant Frequency LLC (C) 2015</p>
-    </div>
-  </footer>
+	<div id="contact">Contact <a href="mailto:tristan@lawofthings.com">Tristan Hardy</a> for more information.</div>
+	<div id="wrap">
+		<%= yield %>
+	</div>
+	<div id="footer">
+		<div class="container">
+			<p class="text-muted credit">©2013 Law of Things, PLLC (<a href="mailto:tristan@lawofthings.com">Contact</a>)</p>
+		</div>
+	</div>
 </body>
 </html>

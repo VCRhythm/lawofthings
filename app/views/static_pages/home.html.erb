@@ -1,9 +1,57 @@
-<% content_for :navbar do %>
-  <%= render 'shared/navbar_bottom' %>
-<% end %>
-
-<% content_for :body do %>
-  <div id="bg">
-    <%= image_tag 'background.jpg' %>
-  </div>
-<% end %>
+<div class="container">
+	<div class="page-header">
+		<h1>Law of Things, PLLC</h1>
+	</div>
+	<p class="lead">Specializing in legal services for Virginia startups and non-profits.</p>
+	<div id="accordion">
+		<div class="panel">
+		<p class="category">
+			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+				Intellectual Property
+			</a>
+		</p>
+		<div id="collapseOne" class="panel-collapse collapse">
+			<div class="panel-body">
+				Intellectual property represents approximately 70% of an average firm's value. Do you know how to protect and monetize your assets?
+			</div>
+		</div>
+		</div>
+		<div class="panel">
+		<p class="category">
+			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+				Funding Options
+			</a>
+		</p>
+		<div id="collapseTwo" class="panel-collapse collapse">
+			<div class="panel-body">
+				You're ready to stop bootstrapping, so let's discuss some funding opportunities (and related tax consequences) for your business.
+			</div>
+		</div>
+		</div>
+		<div class="panel">
+		<p class="category panel-title">
+			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+				Business Formation
+			</a>
+		</p>
+		<div id="collapseThree" class="panel-collapse collapse">
+			<div class="panel-body">
+				Protect yourself from liability by selecting the best business formation for your particular venture.
+			</div>
+		</div>
+		</div>
+		<div class="panel">
+		<p class="category panel-title">
+			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+				Contract Negotiation
+			</a>
+		</p>
+		<div id="collapseFour" class="panel-collapse collapse">
+			<div class="panel-body">
+				Save friendships, partnerships, and other affiliations by making the terms of your relationships crystal clear.
+			</div>
+		</div>
+	</div>
+	</div>
+	<h2>Clients currently range from <a href="http://www.wanderingzorba.com">pop-up bakeries</a> to <a href="http://www.rockwallgames.com">independent game developers</a>.</h2>
+</div>

@@ -12,23 +12,128 @@
 
  */
 
-/* line 2, /home/tristan/vacantfrequency/app/assets/stylesheets/home.css.scss */
-#bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
+/* line 2, /home/tristan/lawofthings/app/assets/stylesheets/home.css.scss */
+html, body {
+  height: 100%;
+  background-color: black;
 }
-/* line 10, /home/tristan/vacantfrequency/app/assets/stylesheets/home.css.scss */
-#bg img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  min-width: 50%;
-  min-height: 50%;
+
+/* line 7, /home/tristan/lawofthings/app/assets/stylesheets/home.css.scss */
+a:hover {
+  background-color: inherit;
+}
+
+/* line 11, /home/tristan/lawofthings/app/assets/stylesheets/home.css.scss */
+a:focus {
+  outline: none;
+}
+
+/* line 14, /home/tristan/lawofthings/app/assets/stylesheets/home.css.scss */
+#contact {
+  position: fixed;
+  right: 15%;
+  color: white;
+  font-size: 1.3em;
+  top: 10px;
+  background-color: black;
+}
+
+/* line 22, /home/tristan/lawofthings/app/assets/stylesheets/home.css.scss */
+#accordion {
+  border: 0;
+  border-width: 0;
+  margin: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  padding: 0;
+}
+
+/* line 32, /home/tristan/lawofthings/app/assets/stylesheets/home.css.scss */
+a.accordion-toggle {
+  color: inherit;
+  text-decoration: none;
+  border: 0;
+  border-width: 0;
+  margin: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  padding: 0;
+}
+
+/* line 45, /home/tristan/lawofthings/app/assets/stylesheets/home.css.scss */
+.panel {
+  border: 0;
+  border-width: 0;
+  margin: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  padding: 0;
+}
+
+/* line 55, /home/tristan/lawofthings/app/assets/stylesheets/home.css.scss */
+.panel-body {
+  color: white;
+  background-color: black;
+  font-size: 2em;
+}
+
+/* line 61, /home/tristan/lawofthings/app/assets/stylesheets/home.css.scss */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -60px;
+  padding: 0 0 60px;
+}
+
+/* line 69, /home/tristan/lawofthings/app/assets/stylesheets/home.css.scss */
+#footer {
+  height: 60px;
+  background-color: #DFEFFB;
+}
+
+/* line 73, /home/tristan/lawofthings/app/assets/stylesheets/home.css.scss */
+.container {
+  width: auto;
+  padding: 0 10px;
+}
+
+/* line 78, /home/tristan/lawofthings/app/assets/stylesheets/home.css.scss */
+.container .credit {
+  margin: 20px 0;
+  font-size: 1.5em;
+}
+
+/* line 83, /home/tristan/lawofthings/app/assets/stylesheets/home.css.scss */
+.category {
+  font-size: 5em;
+  line-height: 1.2em;
+  color: #FBEFDE;
+  background-color: black;
+  border: 0;
+  margin: 0;
+}
+
+/* line 92, /home/tristan/lawofthings/app/assets/stylesheets/home.css.scss */
+h1 {
+  color: white;
+}
+
+/* line 96, /home/tristan/lawofthings/app/assets/stylesheets/home.css.scss */
+p {
+  color: #FBC47B;
+}
+
+/* line 99, /home/tristan/lawofthings/app/assets/stylesheets/home.css.scss */
+h2 {
+  padding-top: 30px;
+  color: #CBE9F0;
 }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /* line 9, /home/tristan/.rvm/gems/ruby-2.1.1/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
@@ -8608,15 +8713,82 @@ button.close {
     display: none !important;
   }
 }
-/* line 5, /home/tristan/vacantfrequency/app/assets/stylesheets/scaffolds.css.scss */
-.media {
-  border: solid 3px grey;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+/* line 4, /home/tristan/lawofthings/app/assets/stylesheets/scaffolds.css.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 12, /home/tristan/lawofthings/app/assets/stylesheets/scaffolds.css.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 18, /home/tristan/lawofthings/app/assets/stylesheets/scaffolds.css.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 24, /home/tristan/lawofthings/app/assets/stylesheets/scaffolds.css.scss */
+a {
+  color: #000;
+}
+/* line 26, /home/tristan/lawofthings/app/assets/stylesheets/scaffolds.css.scss */
+a:visited {
+  color: #666;
+}
+/* line 29, /home/tristan/lawofthings/app/assets/stylesheets/scaffolds.css.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 36, /home/tristan/lawofthings/app/assets/stylesheets/scaffolds.css.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 41, /home/tristan/lawofthings/app/assets/stylesheets/scaffolds.css.scss */
+#notice {
+  color: green;
+}
+
+/* line 45, /home/tristan/lawofthings/app/assets/stylesheets/scaffolds.css.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 51, /home/tristan/lawofthings/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 58, /home/tristan/lawofthings/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 68, /home/tristan/lawofthings/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
 }

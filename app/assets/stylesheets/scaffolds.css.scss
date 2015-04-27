@@ -15,21 +15,6 @@ pre {
   font-size: 11px;
 }
 
-a {
-  color: #FBC47B;
-  &:visited {
-    color: #FBC47B;
-  }
-  &:hover {
-    color: #fff;
-    background-color: #000;
-  }
-  &:focus{
-    outline: none;
-  }
-
-}
-
 div {
   &.field, &.actions {
     margin-bottom: 10px;

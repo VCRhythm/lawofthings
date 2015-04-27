@@ -18,6 +18,20 @@ a:focus{
 	font-size:1.3em;
 	top:10px;
 	background-color:black;
+a {
+  color: #FBC47B;
+  &:visited {
+    color: #FBC47B;
+  }
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+  &:focus{
+    outline: none;
+  }
+
+}
 }
 	#accordion{
 		border:0;
@@ -69,6 +83,21 @@ a:focus{
 
 .footer {
 	background-color: #DFEFFB;
+a {
+  color: #337AB7;
+  &:visited {
+    color: #337AB7;
+  }
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+  &:focus{
+    outline: none;
+  }
+
+}
+
 }
 
 .container .credit {

@@ -11,6 +11,7 @@ a:hover{
 a:focus{
 	outline:none;
 }
+
 #contact{
 	position:fixed;
 	right:15%;
@@ -18,6 +19,12 @@ a:focus{
 	font-size:1.3em;
 	top:10px;
 	background-color:black;
+}
+
+.page-header{
+	margin-top: 50px;
+}
+
 a {
   color: #FBC47B;
   &:visited {
@@ -30,18 +37,17 @@ a {
   &:focus{
     outline: none;
   }
+}
 
-}
-}
-	#accordion{
-		border:0;
-		border-width:0;
-		margin:0;
-		-webkit-border-radius:0;
-		-moz-border-radius:0;
-		-o-border-radius:0;
-		border-radius:0;
-		padding:0;
+#accordion{
+	border:0;
+	border-width:0;
+	margin:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	-o-border-radius:0;
+	border-radius:0;
+	padding:0;
 }
 	a.accordion-toggle {
 		color:inherit;
@@ -57,9 +63,8 @@ a {
 		}
 
 .panel{
-	border:0;
-	border-width:0;
-	margin:0;
+	border-width:0 0 1px;
+	margin:10px 0;
 	-webkit-border-radius:0;
 	-moz-border-radius:0;
 	-o-border-radius:0;
